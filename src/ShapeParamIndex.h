@@ -1,0 +1,13 @@
+#ifndef _SHAPEPARAMINDEX_H
+#define _SHAPEPARAMINDEX_H
+
+
+enum ShapeParamIndex {
+  PARAM_RADIUS,
+  PARAM_WIDTH,
+  PARAM_HEIGHT,
+  PARAM_DIAGONAL,
+  PARAM_DEPTH,
+  PARAM_ANGLE
+};
+#endif
