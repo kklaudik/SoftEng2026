@@ -45,3 +45,9 @@ target_include_directories(test_shape1 PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/src  P
 
 add_test(NAME test_shape1 COMMAND test_shape1)
 #add_test(NAME test_shape2 COMMAND test_shape2)
+
+add_executable(test_rhombus src/tests/test_rhombus.cpp)
+target_link_libraries(test_rhombus gtest gtest_main ShapeLib)
+target_include_directories(test_rhombus PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/src PRIVATE ${PROJECT_BINARY_DIR})
+
+add_test(NAME test_rhombus COMMAND test_rhombus)
