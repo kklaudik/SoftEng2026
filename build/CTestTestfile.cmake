@@ -1,0 +1,37 @@
+# CMake generated Testfile for 
+# Source directory: C:/Users/kamil/Desktop/IO/SoftEng2026
+# Build directory: C:/Users/kamil/Desktop/IO/SoftEng2026/build
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+if(CTEST_CONFIGURATION_TYPE MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+  add_test(test_shape1 "C:/Users/kamil/Desktop/IO/SoftEng2026/build/Debug/test_shape1.exe")
+  set_tests_properties(test_shape1 PROPERTIES  _BACKTRACE_TRIPLES "C:/Users/kamil/Desktop/IO/SoftEng2026/CMakeLists.txt;47;add_test;C:/Users/kamil/Desktop/IO/SoftEng2026/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+  add_test(test_shape1 "C:/Users/kamil/Desktop/IO/SoftEng2026/build/Release/test_shape1.exe")
+  set_tests_properties(test_shape1 PROPERTIES  _BACKTRACE_TRIPLES "C:/Users/kamil/Desktop/IO/SoftEng2026/CMakeLists.txt;47;add_test;C:/Users/kamil/Desktop/IO/SoftEng2026/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
+  add_test(test_shape1 "C:/Users/kamil/Desktop/IO/SoftEng2026/build/MinSizeRel/test_shape1.exe")
+  set_tests_properties(test_shape1 PROPERTIES  _BACKTRACE_TRIPLES "C:/Users/kamil/Desktop/IO/SoftEng2026/CMakeLists.txt;47;add_test;C:/Users/kamil/Desktop/IO/SoftEng2026/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
+  add_test(test_shape1 "C:/Users/kamil/Desktop/IO/SoftEng2026/build/RelWithDebInfo/test_shape1.exe")
+  set_tests_properties(test_shape1 PROPERTIES  _BACKTRACE_TRIPLES "C:/Users/kamil/Desktop/IO/SoftEng2026/CMakeLists.txt;47;add_test;C:/Users/kamil/Desktop/IO/SoftEng2026/CMakeLists.txt;0;")
+else()
+  add_test(test_shape1 NOT_AVAILABLE)
+endif()
+if(CTEST_CONFIGURATION_TYPE MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+  add_test(test_rhombus "C:/Users/kamil/Desktop/IO/SoftEng2026/build/Debug/test_rhombus.exe")
+  set_tests_properties(test_rhombus PROPERTIES  _BACKTRACE_TRIPLES "C:/Users/kamil/Desktop/IO/SoftEng2026/CMakeLists.txt;48;add_test;C:/Users/kamil/Desktop/IO/SoftEng2026/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+  add_test(test_rhombus "C:/Users/kamil/Desktop/IO/SoftEng2026/build/Release/test_rhombus.exe")
+  set_tests_properties(test_rhombus PROPERTIES  _BACKTRACE_TRIPLES "C:/Users/kamil/Desktop/IO/SoftEng2026/CMakeLists.txt;48;add_test;C:/Users/kamil/Desktop/IO/SoftEng2026/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
+  add_test(test_rhombus "C:/Users/kamil/Desktop/IO/SoftEng2026/build/MinSizeRel/test_rhombus.exe")
+  set_tests_properties(test_rhombus PROPERTIES  _BACKTRACE_TRIPLES "C:/Users/kamil/Desktop/IO/SoftEng2026/CMakeLists.txt;48;add_test;C:/Users/kamil/Desktop/IO/SoftEng2026/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
+  add_test(test_rhombus "C:/Users/kamil/Desktop/IO/SoftEng2026/build/RelWithDebInfo/test_rhombus.exe")
+  set_tests_properties(test_rhombus PROPERTIES  _BACKTRACE_TRIPLES "C:/Users/kamil/Desktop/IO/SoftEng2026/CMakeLists.txt;48;add_test;C:/Users/kamil/Desktop/IO/SoftEng2026/CMakeLists.txt;0;")
+else()
+  add_test(test_rhombus NOT_AVAILABLE)
+endif()
+subdirs("externals/googletest")
