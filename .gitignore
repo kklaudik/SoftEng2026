@@ -1,15 +1,6 @@
 # Visual Studio
 .vs/
 
-# CMake build
-build/
-CMakeFiles/
-CMakeCache.txt
 
 # output
 out/
-
-# binaries
-*.exe
-*.obj
-*.pdb
