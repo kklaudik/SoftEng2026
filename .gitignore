@@ -8,8 +8,3 @@ CMakeCache.txt
 
 # output
 out/
-
-# binaries
-*.exe
-*.obj
-*.pdb
