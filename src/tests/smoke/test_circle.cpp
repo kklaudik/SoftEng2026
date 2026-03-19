@@ -6,8 +6,6 @@
 #include "Circle.h"
 #include "ShapeParam.h"
 
-
-
 // 1. HAPPY PATH: Zwykłe wartości (np. r=5)
 TEST(CircleTest, HappyPath_StandardValues)
 {
